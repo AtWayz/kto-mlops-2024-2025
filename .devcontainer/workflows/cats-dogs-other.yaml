@@ -2,7 +2,7 @@ name: Cats and dogs CI/CD
 on:
   push:
     branches:
-      - step03
+      - rene/step03
 
 jobs:
   train:
