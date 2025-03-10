@@ -8,7 +8,7 @@ def skip_oauth():
 
 
 index.skip_oidc = True
-index.app.dependency_overrides[index.oauth2_scheme] = skip_oauth
+index.app.dependency_overrides[index.oauth2_scheme] = skip_oauth 
 
 client = TestClient(index.app)
 
